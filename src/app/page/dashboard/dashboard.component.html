@@ -1,0 +1,5 @@
+<div class="p-7">
+    <app-stats-card *ngIf="isAPiCallMade" [dashboardData]="dashboardData"></app-stats-card>
+    <app-table *ngIf="isAPiCallMade" [dashboardData]="dashboardData"></app-table>
+    <app-charts *ngIf="isAPiCallMade" [dashboardData]="dashboardData"></app-charts>
+</div>
