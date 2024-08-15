@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Topaz Assessment Task
 
-A brief description of what this project does and who it's for
+Creation of the topaz assessment
 
 
 ## Demo
@@ -45,13 +45,13 @@ Video is added in directory
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/misbahowais/Topaz_Dashboard_App.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Topaz_Dashboard_App
 ```
 
 Install dependencies
