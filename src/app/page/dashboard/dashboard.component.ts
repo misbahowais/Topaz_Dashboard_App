@@ -6,6 +6,7 @@ import { TableComponent } from '../../components/dashboard/table/table.component
 import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { DashboardModel } from '../../model/dashboard/dashboard.model';
 import { ResponseModel } from '../../model/response.model';
+import { ChatService } from '../../service/chats/chats.service';
 import { DashboardService } from '../../service/dashboard/dashboard.service';
 
 @Component({
@@ -16,7 +17,7 @@ import { DashboardService } from '../../service/dashboard/dashboard.service';
   styleUrl: './dashboard.component.scss'
 })
 export class DashboardComponent implements OnInit {
-  constructor(private dashboardService:DashboardService){}
+  constructor(private dashboardService:DashboardService, private chat:ChatService){}
   ngOnInit(): void {
     this.getAll();
   }
